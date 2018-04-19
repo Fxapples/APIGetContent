@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\bin\Debug\APIGetContent.exe.config
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\bin\Debug\APIGetContent.exe
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\bin\Debug\APIGetContent.pdb
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.MainForm.resources
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.exe
+D:\Documents\Visual Studio 2015\Projects\APIGetContent\trunk\APIGetContent\obj\Debug\APIGetContent.pdb
