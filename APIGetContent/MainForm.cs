@@ -23,6 +23,7 @@ namespace APIGetContent
             chkRepeat.Checked = false;
             txtTime.Enabled = false;
             //txtURL.Text = @"https://app.fishlee.net/cn12306/doc/logintip";
+            //Git测试
         }
 
         private void btnStart_Click(object sender, EventArgs e)
@@ -40,7 +41,7 @@ namespace APIGetContent
             if (chkRepeat.Checked)
             {
                 decimal time;
-                if (! decimal.TryParse(txtTime.Text, out time))
+                if (!decimal.TryParse(txtTime.Text, out time))
                 {
                     txtTime.Focus();
                     MessageBox.Show(@"请输入正确的数字");
@@ -58,7 +59,7 @@ namespace APIGetContent
             {
                 case RequestStatus.初始化:
                 case RequestStatus.停止请求:
-                    
+
                     if (!string.IsNullOrWhiteSpace(txtContent.Text.Trim()))
                     {
                         var tip = MessageBox.Show(@"是否清空界面现有记录？", @"提示信息", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -152,7 +153,7 @@ namespace APIGetContent
                         }
 
                         var time = decimal.Parse(txtTime.Text.Trim());
-                        Thread.Sleep(Convert.ToInt32(time*1000));
+                        Thread.Sleep(Convert.ToInt32(time * 1000));
                     }
                 }
                 SetMessageText("请求结束...");
